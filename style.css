@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
 }
 
 .journey-part {
@@ -73,4 +74,115 @@ body {
     width: 475px;
     height: 475px;
     top: 50px;
+    margin-bottom: 69px;
+}
+
+/* -----------------------
+    Logo list part
+------------------------- */
+
+.logo-list {
+    width: 1110px;
+    height: 110px;
+    margin: 175px 165px 100px 165px;
+    border: 1px solid #f7f3f3;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 62px 34px 62px;
+}
+
+/* --------------------
+product collection
+----------------------- */
+.container {
+    position: absolute;
+    justify-content: center;
+    width: 1047px;
+    height: 1662px;
+    left: 196px;
+}
+
+.container h2 {
+    height: 70px;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.product {
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 17px 15px 17px 14px;
+}
+
+.product-image img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+.amount {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+}
+
+.fa-star.filled {
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+
+.fa-star-half-stroke.filled {
+    color: #FB8200;
+}
+
+.star span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+    margin-left: 8px;
+}
+
+.product-info p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    letter-spacing: 0.018em;
+    width: 196px;
+    height: 61px;
+    line-height: 20.02px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
